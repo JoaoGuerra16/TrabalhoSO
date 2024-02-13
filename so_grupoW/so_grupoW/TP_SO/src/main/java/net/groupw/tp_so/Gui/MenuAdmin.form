@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.groupw.tp_so.Gui.MenuAdmin">
+  <grid id="27dc6" binding="MenuAdmin" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="450" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-855310"/>
+      <preferredSize width="400" height="350"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="88104" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-855310"/>
+          <preferredSize width="400" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4e61c" class="javax.swing.JLabel" binding="menuAdmin">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="24" style="1"/>
+              <foreground color="-16751002"/>
+              <text value="MenuAdmin"/>
+            </properties>
+          </component>
+          <vspacer id="ad2d6">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <vspacer id="4019">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="89e1d">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="8159f">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="d129a" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-855310"/>
+          <preferredSize width="400" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ed7fb" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <background color="-6877690"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="feaf1" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <preferredSize width="400" height="180"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2cf15" class="javax.swing.JButton" binding="Perfil">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Profile"/>
+            </properties>
+          </component>
+          <component id="d207b" class="javax.swing.JButton" binding="simulateButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Simulator"/>
+            </properties>
+          </component>
+          <component id="9728e" class="javax.swing.JButton" binding="logsButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Logs"/>
+            </properties>
+          </component>
+          <component id="f3bf3" class="javax.swing.JButton" binding="graphButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Graph"/>
+            </properties>
+          </component>
+          <component id="54e57" class="javax.swing.JButton" binding="listOfUsersButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="List of users"/>
+            </properties>
+          </component>
+          <component id="154d9" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Roboto Light" size="15" style="1"/>
+              <foreground color="-855310"/>
+              <preferredSize width="200" height="50"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

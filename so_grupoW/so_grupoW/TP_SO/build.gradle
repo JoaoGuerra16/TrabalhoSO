@@ -1,0 +1,60 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.javamodularity.moduleplugin' version '1.8.12'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+  id 'org.beryx.jlink' version '2.25.0'
+}
+
+group 'net.groupw'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+application {
+  mainModule = 'net.groupw.tp_so'
+  mainClass = 'net.groupw.tp_so.SistemaOperativo'
+}
+
+javafx {
+  version = '17.0.9'
+  modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+  implementation 'org.jfree:jfreechart:1.5.0'
+  implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.1'
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+  implementation 'com.intellij:forms_rt:7.0.3'
+  configurations {
+    all {
+      exclude group: 'jdom', module: 'jdom'
+    }
+  }
+}
+
+test {
+useJUnitPlatform()}
+
+
+
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'net.groupw.tp_so.SistemaOperativo'
+  }
+}
